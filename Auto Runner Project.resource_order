@@ -14,6 +14,7 @@
     {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":14,"path":"folders/Sprites.yy",},
     {"name":"Costumes","order":18,"path":"folders/Sprites/Costumes.yy",},
+    {"name":"Motivational_Ghostly_Blue","order":3,"path":"folders/Sprites/Costumes/Motivational_Ghostly_Blue.yy",},
     {"name":"Optomistic_Red","order":2,"path":"folders/Sprites/Costumes/Optomistic_Red.yy",},
     {"name":"Push_n_pull_green","order":1,"path":"folders/Sprites/Costumes/Push_n_pull_green.yy",},
     {"name":"Hazards","order":8,"path":"folders/Sprites/Hazards.yy",},
