@@ -1,0 +1,89 @@
+//Game restart
+if keyboard_check_pressed(ord("R")) 
+{ 
+	game_restart()
+}
+
+//Game States
+switch (global.gamestate) 
+{
+	
+	//Menu state 
+	case "Menu": 
+	if instance_exists(oPlayer)
+	{
+		global.gamestate = "PlayingGame" 
+	}
+	
+	break; 
+	
+	//Score 
+    case "PlayingGame":
+	RunTime += 1
+	if RunTime = 60
+		{
+			score += 1
+			RunTime = 1
+			SpeedIncrease +=1 
+		}
+		
+	//Hazard Spawn 
+	show_debug_message(global.gamestate)
+	if oPlayer.state = "Ded lol" //Stops hazards from moving when you die
+			{
+				SpeedIncrease = 0
+				WorldSpeed = 0
+				global.OG_HazardTimer = 80
+			}
+			else if WorldSpeed = 0
+			{
+				 WorldSpeed = OG_WorldSpeed; 
+				 global.HazardTimer = global.OG_HazardTimer; 
+			}
+	global.HazardTimer -= 1
+	if global.HazardTimer <= 0 
+	{
+		var hazard = instance_create_layer(684,256,"Objects", oHazardParent)
+		hazard.sprite_index = choose(sBananav2, sCactus_Tall, sCactus_Small, sRock) 
+		
+	//Banana Spawn 
+		if hazard.sprite_index = sBananav2 
+			{
+				hazard.CanKill = false
+			}
+		global.HazardTimer = random_range(global.OG_HazardTimer,global.OG_HazardTimer + Max_HazardLimit)
+		
+	//Coin Spawn 
+	global.CoinChance = random_range(0,100)
+		var randomnumber = choose(1,1,2,2,2,3) //putting the same number increases the chance of it happening 
+		if hazard.sprite_index = sCactus_Tall 
+			{
+				randomnumber = choose(2,3) 
+			}
+		if global.CoinChance <= 40
+		{
+			var coin = instance_create_layer(choose (684,748,748,620,620), 224 - (randomnumber*32), "Objects", oCoin)
+		}
+	//Increase Speed of game 
+		if SpeedIncrease >= 9 and WorldSpeed < SpeedLimit //How long it takes for game to increase speed 
+			{
+				WorldSpeed -= 1
+				SpeedIncrease = 0
+				if global.OG_HazardTimer > Min_HazardTimer
+				{
+					global.OG_HazardTimer -= 20
+				}
+			}
+	}
+	//Increasing Hazard Speed all at once 
+		if instance_exists(oHazardParent)
+			{
+				oHazardParent.hspeed = WorldSpeed; 
+				 
+			}
+		if instance_exists(oCoin)
+			{
+				oCoin.hspeed = WorldSpeed;
+			}
+    break;
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fullscreen_toggle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fullscreen_toggle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
