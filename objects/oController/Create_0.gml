@@ -13,7 +13,51 @@ WorldSpeed = OG_WorldSpeed
 SpeedIncrease = 0
 SpeedLimit = 10 //cap on how fast the game can run
 
-//HazardSpeed_Limit = 20
+//customization for player costumes 
+	//these are structs 
+	//structs are lists of variables and give them values 
+	//arrays are just kinda lists lol (sprites, numbers, etc.)
+global.defaultSprites = 
+{
+	RunSprite: sTezz_Run,
+	JumpSprite: sTezz_Jump,
+	SlipSprite: sTezz_Slip, 
+	DeadSprite: sTezz_death,
+	HeadSprite: sTezz_head, 
+	IdleSprite: sTezz_Idle,
+}
+global.GS_Sprites = 
+{
+	RunSprite: Costume01_run,
+	JumpSprite: Costume01_jump, 
+	SlipSprite: Costume01_slip,  
+	DeadSprite: Costume01_dead, 
+	HeadSprite: Costume01_head, 
+	IdleSprite: Costume01_idle, 
+}
+global.Mein_Sprites = 
+{
+	RunSprite: Costume02_run,
+	JumpSprite: Costume02_jump, 
+	SlipSprite: Costume02_slip,  
+	DeadSprite: Costume02_dead, 
+	HeadSprite: Costume02_head, 
+	IdleSprite: Costume02_idle,
+}
+
+//sprite array
+global.SpriteList = 
+[
+	global.defaultSprites,
+	global.GS_Sprites, 
+	global.Mein_Sprites, 
+]
+global.CurrentSprite = 0;  
+
+//This should keep track of the Sprite List array, which will auto update with whatever costumes I add 
+//checks how many costumes you have;(if I had 10 costumes) scrolling thru cant go above 10 or below 0  
+//you never have to change the -1 btw 
+global.SpriteListLenght = array_length(global.SpriteList) -1; 
 
 LoadGame() //always at the end
 

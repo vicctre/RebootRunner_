@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer_Run",
-    "path":"sprites/sPlayer_Run/sPlayer_Run.yy",
+    "name":"sTezz_Idle",
+    "path":"sprites/sTezz_Idle/sTezz_Idle.yy",
   },
   "spriteMaskId":{
     "name":"sPlayer_Run",

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCoin",
-    "path":"sprites/sCoin/sCoin.yy",
+    "name":"Coin_ReRun_FIN",
+    "path":"sprites/Coin_ReRun_FIN/Coin_ReRun_FIN.yy",
   },
   "spriteMaskId":null,
   "visible":true,

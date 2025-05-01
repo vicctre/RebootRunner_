@@ -4,8 +4,24 @@ if HasControl = true
 }
 
 onground = place_meeting(x,y+1,oWall)
+
+//Costume change 
+	//This lets us change our costumes for the time being
+	//There are only two atm 
+	//gotta add more to the list 
+if keyboard_check_pressed(vk_up) and global.CurrentSprite = 0
+	{
+		global.CurrentSprite += 1; 
+	}
+if keyboard_check_pressed(vk_down) and global.CurrentSprite = 1
+	{
+		global.CurrentSprite -= 1; 
+	}
+
+//idk how to add other costumes and swap between them
+
 //Invinicbility for Debug purposes 
-if keyboard_check(ord("K"))
+if keyboard_check_pressed(ord("K"))
 	{
 		Debug_Invinicible = !Debug_Invinicible
 	}
@@ -13,7 +29,7 @@ if keyboard_check(ord("K"))
 //State machine basically 
 switch (state) {
     case "Running":
-        sprite_index = sPlayer_Run;
+        sprite_index = global.SpriteList[global.CurrentSprite].RunSprite;
         if not onground { state = "Jump"; }
 	//Hazard collisions with player 
 		var touchhazard = instance_place(x,y,oHazardParent)
@@ -32,7 +48,7 @@ switch (state) {
 		}
     break;
 	case "Jump": 
-		sprite_index = sPlayer_Jump;
+		sprite_index =  global.SpriteList[global.CurrentSprite].JumpSprite;
 			if vsp > 0 
 			{ image_index = 1; } 
 			else 
@@ -55,7 +71,7 @@ switch (state) {
 		if onground { state = "Running"} 
 	break; 
 	case "Slip": 
-		sprite_index = sPlayer_Slip
+		sprite_index =  global.SpriteList[global.CurrentSprite].SlipSprite;
 		SlipTime -= 1
 		if SlipTime = 0 
 			{
@@ -74,7 +90,7 @@ switch (state) {
 		}
 	break; 
 	case "Ded lol": 
-		sprite_index = sPlayer_Ded
+		sprite_index = global.SpriteList[global.CurrentSprite].DeadSprite;
 		DeathDelay += 1 
 		vsp = 0
 		grav = 0
@@ -90,6 +106,9 @@ switch (state) {
 			room_goto(RoomResults); 
 			global.gamestate = "Menu"
 		}
+	break; 
+	case "Results": 
+		sprite_index =  global.SpriteList[global.CurrentSprite].IdleSprite; 
 	break; 
 		
 }
