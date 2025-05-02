@@ -57,6 +57,7 @@
     {"name":"Costume03_idle","order":6,"path":"sprites/Costume03_idle/Costume03_idle.yy",},
     {"name":"Costume03_jump","order":2,"path":"sprites/Costume03_jump/Costume03_jump.yy",},
     {"name":"Costume03_slip","order":3,"path":"sprites/Costume03_slip/Costume03_slip.yy",},
+    {"name":"Costume04_Comp","order":7,"path":"sprites/Costume04_Comp/Costume04_Comp.yy",},
     {"name":"Costume04_dead","order":3,"path":"sprites/Costume04_dead/Costume04_dead.yy",},
     {"name":"Costume04_head","order":4,"path":"sprites/Costume04_head/Costume04_head.yy",},
     {"name":"Costume04_idle","order":6,"path":"sprites/Costume04_idle/Costume04_idle.yy",},
