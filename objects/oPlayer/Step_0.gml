@@ -9,11 +9,12 @@ onground = place_meeting(x,y+1,oWall)
 	//This lets us change our costumes for the time being
 	//There are only two atm 
 	//gotta add more to the list 
-if keyboard_check_pressed(vk_up) and global.CurrentSprite = 0
+
+if keyboard_check_pressed(vk_up) and global.CurrentSprite < global.SpriteListLenght 
 	{
 		global.CurrentSprite += 1; 
 	}
-if keyboard_check_pressed(vk_down) and global.CurrentSprite = 1
+if keyboard_check_pressed(vk_down) and global.CurrentSprite > 0
 	{
 		global.CurrentSprite -= 1; 
 	}

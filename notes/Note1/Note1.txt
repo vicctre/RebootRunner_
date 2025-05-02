@@ -1,0 +1,14 @@
+TO-DO list 5/1/25 
+
+having fun making sprites for the time being
+but there is still A LOT to get done before I can be confident in this title! 
+I wont go into everything here, but I will say what the next session of coding should entail: 
+
+--Add all costumes to be viewable somehow (Debug mode) 
+--Add a global coin tally system that tracks ALL the coins you earn and spend 
+--Add a proper results screen that displays info 
+--Have said results screen calculate how many coins you have earned via running 
+was thinking making it like for every 12 score points you get 1 coin. Should round down
+--Create shorter ranges for when the game increases speed, making objects spawn more frequently 
+
+prob wont be able to do all of these, but lets try our best! 

@@ -17,6 +17,8 @@ SpeedLimit = 10 //cap on how fast the game can run
 	//these are structs 
 	//structs are lists of variables and give them values 
 	//arrays are just kinda lists lol (sprites, numbers, etc.)
+	
+//Costumes based on friends games 
 global.defaultSprites = 
 {
 	RunSprite: sTezz_Run,
@@ -44,6 +46,15 @@ global.Mein_Sprites =
 	HeadSprite: Costume02_head, 
 	IdleSprite: Costume02_idle,
 }
+global.FB_Sprites = 
+{
+	RunSprite: Costume03_run,
+	JumpSprite: Costume03_jump, 
+	SlipSprite: Costume03_slip,  
+	DeadSprite: Costume03_dead, 
+	HeadSprite: Costume03_head, 
+	IdleSprite: Costume03_idle,
+}
 
 //sprite array
 global.SpriteList = 
@@ -51,6 +62,7 @@ global.SpriteList =
 	global.defaultSprites,
 	global.GS_Sprites, 
 	global.Mein_Sprites, 
+	global.FB_Sprites, 
 ]
 global.CurrentSprite = 0;  
 
