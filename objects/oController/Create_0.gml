@@ -55,6 +55,15 @@ global.FB_Sprites =
 	HeadSprite: Costume03_head, 
 	IdleSprite: Costume03_idle,
 }
+global.MA_Sprites = 
+{
+	RunSprite: Costume04_run,
+	JumpSprite: Costume04_jump, 
+	SlipSprite: Costume04_slip,  
+	DeadSprite: Costume04_dead, 
+	HeadSprite: Costume04_head, 
+	IdleSprite: Costume04_idle,
+}
 
 //sprite array
 global.SpriteList = 
@@ -63,6 +72,7 @@ global.SpriteList =
 	global.GS_Sprites, 
 	global.Mein_Sprites, 
 	global.FB_Sprites, 
+	global.MA_Sprites, 
 ]
 global.CurrentSprite = 0;  
 
