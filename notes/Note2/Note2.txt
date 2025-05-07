@@ -1,0 +1,39 @@
+5/6/25 
+
+Right now I am working on sprites and updating some assets while trying to add stuff. 
+I want to 
+	-Add effect for when coins are collected 
+	-Put characters in idle on results screen
+	-Add new menu buttons to look nicer 
+	-maybe add a title screen and some logos 
+
+
+---Coin effect----
+I seem to have gotten the coin effect to work but with some hiccups... 
+Now youre collecting the coin for every frame and upon first collecting the first coin the player uses the effect...
+tried doing 
+if global.CoinCount >= 1 
+{
+	sprite_index = Coin_Collected; 
+	instance_destroy(other)
+}
+cuz I need the coin to react ot being collected, I also tried putting it in the oCoin collision event with the player 
+that brought up errors of its own.
+I have reverted all changes to what they were beforehand 
+
+
+---Results screen stuff---
+I also tried to make the player idle on the results screen, but he continued to fall into the endless void 
+heres what I tried putting in the "results" state 
+
+if room_exists(RoomResults)
+		{
+			HasControl = false; 
+			grav = 0; 
+			FallSpeed = 0; 
+			onground = true
+			sprite_index =  global.SpriteList[global.CurrentSprite].IdleSprite; 
+		}
+didnt seem to do anything. Maybe I can just put a floor there and he will stand? 
+gtg for now, other sprites and details added are in the commit on GitHub 
+

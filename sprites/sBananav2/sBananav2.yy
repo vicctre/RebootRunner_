@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Hazards",
-    "path":"folders/Sprites/Hazards.yy",
+    "path":"folders/Sprites/Objetcs/Hazards.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

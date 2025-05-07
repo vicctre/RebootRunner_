@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Other",
-    "path":"folders/Sprites/Other.yy",
+    "name":"Objetcs",
+    "path":"folders/Sprites/Objetcs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

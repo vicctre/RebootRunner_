@@ -109,7 +109,7 @@ switch (state) {
 		}
 	break; 
 	case "Results": 
-		sprite_index =  global.SpriteList[global.CurrentSprite].IdleSprite; 
+			sprite_index =  global.SpriteList[global.CurrentSprite].IdleSprite; 
 	break; 
 		
 }
