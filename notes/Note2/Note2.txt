@@ -21,12 +21,16 @@ cuz I need the coin to react ot being collected, I also tried putting it in the 
 that brought up errors of its own.
 I have reverted all changes to what they were beforehand 
 
+working with Jampley and we are making a new object for the effect! 
+we created "oCollected" using the aniamtion end event and adding a new line to the oPlayer coin collision event 
+this line makes the effect play where the coin was collected 
+
 
 ---Results screen stuff---
 I also tried to make the player idle on the results screen, but he continued to fall into the endless void 
 heres what I tried putting in the "results" state 
 
-if room_exists(RoomResults)
+if room_exists(RoomResults) //use if room = room_name to ask if youre in a specific room 
 		{
 			HasControl = false; 
 			grav = 0; 
@@ -36,4 +40,5 @@ if room_exists(RoomResults)
 		}
 didnt seem to do anything. Maybe I can just put a floor there and he will stand? 
 gtg for now, other sprites and details added are in the commit on GitHub 
+
 

@@ -11,8 +11,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player stuff",
+    "path":"folders/Objects/Player stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
