@@ -45,8 +45,8 @@ function Menu_inputs()
 
     left_click = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("Z")) or gamepad_button_check_pressed(0,gp_face1) or mouse_check_button_pressed(mb_left);
     left_click_held = keyboard_check(vk_space) or keyboard_check(ord("Z")) or gamepad_button_check(0,gp_face1) or mouse_check_button(mb_left);
-	action = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("Z")) or gamepad_button_check_pressed(0,gp_face1);
-    action_held = keyboard_check(vk_space) or keyboard_check(ord("Z")) or gamepad_button_check(0,gp_face1);
+	accept = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("Z")) or gamepad_button_check_pressed(0,gp_face1) or keyboard_check_pressed(vk_enter);
+    accept_held = keyboard_check(vk_space) or keyboard_check(ord("Z")) or gamepad_button_check(0,gp_face1) or keyboard_check(vk_enter); 
     action2 = keyboard_check_pressed(ord("C")) or gamepad_button_check_pressed(0,gp_face2);
     action_held2 = keyboard_check(ord("C")) or gamepad_button_check(0,gp_face2);
     action3 = keyboard_check_pressed(ord("X")) or gamepad_button_check_pressed(0,gp_face3);

@@ -12,3 +12,13 @@ was thinking making it like for every 12 score points you get 1 coin. Should rou
 --Create shorter ranges for when the game increases speed, making objects spawn more frequently 
 
 prob wont be able to do all of these, but lets try our best! 
+
+TO-DO List 5/7/25 
+
+We did alot today! Got the ground moving, fixed up the menus functioinality, Added another costume and polish.
+Seems like the next thing Jam wants to tackle is the pause menu, which I'm down for! Pausing is important 
+Things I want the pause menu to have are:
+	-Pausing all gameplay assets (duh) 
+	-Having a countdown from 3 upon unpausing 
+	-the ability to Resume, Options, and Quit
+I will make sure to add new sprites for the other menu assets soon! 

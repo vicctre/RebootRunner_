@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"Tezz_Shaders01",
+  "name":"Tezz_Shaders01",
+  "parent":{
+    "name":"Other",
+    "path":"folders/Sprites/Other.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

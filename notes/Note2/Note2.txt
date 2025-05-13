@@ -41,4 +41,14 @@ if room_exists(RoomResults) //use if room = room_name to ask if youre in a speci
 didnt seem to do anything. Maybe I can just put a floor there and he will stand? 
 gtg for now, other sprites and details added are in the commit on GitHub 
 
+5/7/25 
+today Imma have Bynary help me make some shaders for my character! we shall see how it goes...
+after messing around with it, not too much I must admit, IDK if this is what I wanna do. 
+I think if I try more I might get the proper result, but it feels a bit complicated to me...Maybe I just need more practice? 
+Like, I have alot of basic color sprites I wanna add just to give the player stuff to buy even if its not that interesting,
+but I feel it would be faster if I made each sprite palette myself instead of looking for each individual color. Should chat about it again. 
 
+5/13/25 
+rn Im doing very small things, but adding a ton of music I want the game to use one way or another! I am also currently working on 3 more costumes for the game.
+This is way more than I intended, but some people were just interested so IG I have to do them now cuz it will be AWESOME to celebrate my friends games. 
+No more after this tho, these are taking WAAAAAAAY longer than intended. 

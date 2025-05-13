@@ -10,6 +10,19 @@ switch (global.gamestate)
 	
 	//Menu state 
 	case "Menu": 
+	Menu_inputs(); 
+	ButtonAmount = instance_number(oMenuButton) -1; //counts how many of said object are in this room (the -1 stops it from going back the last button) 
+	if instance_exists(oMenuButton) 
+	{
+		if down and global.ButtonSelected < ButtonAmount
+		{
+			global.ButtonSelected += 1; 
+		}
+		if up and global.ButtonSelected > 0
+		{
+			global.ButtonSelected -= 1; 
+		}
+	}
 	if instance_exists(oPlayer)
 	{
 		global.gamestate = "PlayingGame" 
@@ -87,8 +100,8 @@ switch (global.gamestate)
 			}
 	//Increase speed of background as well 
 	var lay_id = layer_get_id("Ground");
-	var back_id = layer_background_get_id(lay_id);
-	layer_background_speed(back_id,-1); 
+	GroundPosition += WorldSpeed; 
+	layer_x(lay_id, GroundPosition);  
     break;
 }
 

@@ -1,7 +1,18 @@
 Menu_inputs()
 
-if left_click and hover = true
+if hover = true 
 {
-	ButtonPress()
-	
+	global.ButtonSelected = ButtonID; 
 }
+if ButtonID = global.ButtonSelected 
+	{
+		image_index = 1; 
+		if left_click and hover = true or accept 
+		{
+			ButtonPress()
+		}
+	}
+	else 
+	{
+		image_index = 0; 
+	}

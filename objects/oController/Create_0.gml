@@ -1,5 +1,6 @@
 
 global.gamestate = "Menu"
+global.ButtonSelected = 0; //For navigating menus with Keyboard 
 global.Hi_Score = 0
 global.CoinCount = 0 
 global.OG_HazardTimer = 80
@@ -12,6 +13,8 @@ OG_WorldSpeed = -3 //how fast the game is upon startup
 WorldSpeed = OG_WorldSpeed
 SpeedIncrease = 0
 SpeedLimit = 10 //cap on how fast the game can run
+GroundPosition = 0; //This is used to move the ground while running (its a Background layer asset) 
+ButtonAmount = 0; 
 
 //customization for player costumes 
 	//these are structs 
