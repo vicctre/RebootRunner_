@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"dead_lol",
+  "%Name":"SFX_dead_lol",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.198753,
-  "name":"dead_lol",
+  "name":"SFX_dead_lol",
   "parent":{
     "name":"SFX",
     "path":"folders/Sounds/SFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"dead_lol.wav",
+  "soundFile":"SFX_dead_lol.wav",
   "type":0,
   "volume":1.0,
 }

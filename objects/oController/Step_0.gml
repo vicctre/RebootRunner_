@@ -78,16 +78,22 @@ switch (global.gamestate)
 			var coin = instance_create_layer(choose (684,748,748,620,620), 224 - (randomnumber*32), "Objects", oCoin)
 		}
 	//Increase Speed of game 
-		if SpeedIncrease >= 9 and WorldSpeed < SpeedLimit //How long it takes for game to increase speed 
+		if SpeedIncrease >= 30 and WorldSpeed < SpeedLimit //How long it takes for game to increase speed 
 			{
 				WorldSpeed -= 1
 				SpeedIncrease = 0
 				if global.OG_HazardTimer > Min_HazardTimer
 				{
-					global.OG_HazardTimer -= 20
+					global.OG_HazardTimer -= 20; //reduces timer everytime the game speeds up 
+					Max_HazardLimit -= 10; //increase or decrease gaps between spawns 
+					if global.HazardTimer < 40
+					{
+						global.HazardTimer = 0
+					}
 				}
 			}
 	}
+		
 	//Increasing Hazard Speed all at once 
 		if instance_exists(oHazardParent)
 			{

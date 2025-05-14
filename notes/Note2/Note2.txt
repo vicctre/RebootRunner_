@@ -52,3 +52,7 @@ but I feel it would be faster if I made each sprite palette myself instead of lo
 rn Im doing very small things, but adding a ton of music I want the game to use one way or another! I am also currently working on 3 more costumes for the game.
 This is way more than I intended, but some people were just interested so IG I have to do them now cuz it will be AWESOME to celebrate my friends games. 
 No more after this tho, these are taking WAAAAAAAY longer than intended. 
+
+Today we are going to try and improve the spawn rate of all the objects when the game increases speed, and we seem to have made a good result. 
+There are comments to tell you where to change numbers if you wanna balance stuff out a bit more 
+Next I will want to add a "DEV_MODE" that displays a ton of info and makes testing easier, as the final game wont play exactly the same. 
