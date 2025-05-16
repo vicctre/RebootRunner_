@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Motivational_Ghostly_Blue",
-    "path":"folders/Sprites/Costumes/Motivational_Ghostly_Blue.yy",
+    "name":"Motivational_Pale_Ghost",
+    "path":"folders/Sprites/Costumes/Motivational_Pale_Ghost.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

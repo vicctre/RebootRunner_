@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Everlasting_Spire_Yellow",
-    "path":"folders/Sprites/Costumes/Everlasting_Spire_Yellow.yy",
+    "name":"Everlasting_Spire",
+    "path":"folders/Sprites/Costumes/Everlasting_Spire.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

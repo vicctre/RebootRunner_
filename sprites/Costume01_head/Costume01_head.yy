@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Push_n_pull_green",
-    "path":"folders/Sprites/Costumes/Push_n_pull_green.yy",
+    "name":"Push_n_pull_Barrage",
+    "path":"folders/Sprites/Costumes/Push_n_pull_Barrage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

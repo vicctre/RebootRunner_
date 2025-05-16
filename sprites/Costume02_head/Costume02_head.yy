@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Optomistic_Red",
-    "path":"folders/Sprites/Costumes/Optomistic_Red.yy",
+    "name":"Optomistic_Young_Noodle",
+    "path":"folders/Sprites/Costumes/Optomistic_Young_Noodle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

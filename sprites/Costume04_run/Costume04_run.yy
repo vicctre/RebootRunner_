@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Humble_Beginnings_Orange",
-    "path":"folders/Sprites/Costumes/Humble_Beginnings_Orange.yy",
+    "name":"Humble_Beginnings_Hopper",
+    "path":"folders/Sprites/Costumes/Humble_Beginnings_Hopper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -76,6 +76,24 @@ global.Kobold_Sprites =
 	HeadSprite: Costume05_head, 
 	IdleSprite: Costume05_idle,
 }
+global.Luna_Sprites = 
+{
+	RunSprite: Costume06_run,
+	JumpSprite: Costume06_jump,
+	SlipSprite: Costume06_slip,  
+	DeadSprite: Costume06_dead, 
+	HeadSprite: Costume06_head, 
+	IdleSprite: Costume06_idle,
+}
+global.VT_Sprites = 
+{
+	RunSprite: Costume07_run,
+	JumpSprite: Costume07_jump,
+	SlipSprite: Costume07_slip,  
+	DeadSprite: Costume07_dead, 
+	HeadSprite: Costume07_head, 
+	IdleSprite: Costume07_idle,
+}
 
 //sprite array
 global.SpriteList = 
@@ -86,6 +104,8 @@ global.SpriteList =
 	global.FB_Sprites, 
 	global.MA_Sprites, 
 	global.Kobold_Sprites, 
+	global.Luna_Sprites, 
+	global.VT_Sprites, 
 ]
 global.CurrentSprite = 0;  
 
