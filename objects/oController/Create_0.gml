@@ -6,6 +6,7 @@ global.CoinCount = 0
 global.OG_HazardTimer = 60 //spawn rate from inital start 
 global.HazardTimer = global.OG_HazardTimer 
 global.CoinChance = 40 
+global.TotalCoinCount = 0; //Counts all the coins the player gets and spends 
 Max_HazardLimit = 100 //longest time to spawn hazards 
 Min_HazardTimer = 40 //shortest time to spawn hazards 
 RunTime = 0 
@@ -14,7 +15,14 @@ WorldSpeed = OG_WorldSpeed
 SpeedIncrease = 0
 SpeedLimit = 10 //cap on how fast the game can run
 GroundPosition = 0; //This is used to move the ground while running (its a Background layer asset) 
-ButtonAmount = 0; 
+ButtonAmount = 0 ;
+FinalScore = 0; 
+Max_Coin = 9999; 
+
+
+//Macros - used for values that never change 
+#macro GUI_Width 1280
+#macro GUI_Height 720
 
 //customization for player costumes 
 	//these are structs 

@@ -30,7 +30,7 @@ switch (global.gamestate)
 	
 	break; 
 	
-	//Score 
+	//Score and Calculating Results 
     case "PlayingGame":
 	RunTime += 1
 	if RunTime = 60

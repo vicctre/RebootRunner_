@@ -62,3 +62,7 @@ We didnt do it lol
 Today, we are going to try finalizing the games loop. So calculating the players score, giving them coins, and giving them a place to use them. 
 First will be the result and a Pause feature. 
 I also want the game to increase speed faster, instead of 30 points lets try 25 or 20...
+
+We have a bit of a mess with the score variables in the Draw_GUI event. 
+We have moved SO MUCH around bro its insane...
+

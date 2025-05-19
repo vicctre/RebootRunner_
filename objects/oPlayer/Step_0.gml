@@ -97,20 +97,12 @@ switch (state) {
 		grav = 0
 		if DeathDelay = 60 
 		{
-			if global.Hi_Score <= score 
-			{
-				global.Hi_Score = score
-			}
-			score = 0 
-			global.CoinCount = 0
 			SaveGame()
 			room_goto(RoomResults); 
 			global.gamestate = "Menu"
 		}
 	break; 
-	case "Results": 
-			sprite_index =  global.SpriteList[global.CurrentSprite].IdleSprite; 
-	break; 
+	
 		
 }
 //Jump 
