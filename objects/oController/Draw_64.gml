@@ -41,10 +41,6 @@ else
 			draw_text_transformed(22, 62, $"Final Score {FinalScore}", 3, 3, 0)
 			
 		}
-		else 
-		{
-			FinalScore = 0;
-		}
 		draw_set_halign(fa_right)//the "h_align" sets text on the horizontal axis, to change the origin of THIS text; default is top left 
 		draw_text_transformed(GUI_Width-22,22, $"MONEY:{global.TotalCoinCount}", 3, 3, 0)
 		draw_set_halign(fa_left)//you have to reset this in order to prevent all other text from moving to the right
