@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Costumes",
-    "path":"folders/Sprites/Costumes.yy",
+    "name":"Eclipsing_Foliage",
+    "path":"folders/Sprites/Costumes/Eclipsing_Foliage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

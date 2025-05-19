@@ -78,7 +78,7 @@ switch (global.gamestate)
 			var coin = instance_create_layer(choose (684,748,748,620,620), 224 - (randomnumber*32), "Objects", oCoin)
 		}
 	//Increase Speed of game 
-		if SpeedIncrease >= 30 and WorldSpeed < SpeedLimit //How long it takes for game to increase speed 
+		if SpeedIncrease >= 20 and WorldSpeed < SpeedLimit //How long it takes for game to increase speed 
 			{
 				WorldSpeed -= 1
 				SpeedIncrease = 0

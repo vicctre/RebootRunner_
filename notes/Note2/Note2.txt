@@ -56,3 +56,9 @@ No more after this tho, these are taking WAAAAAAAY longer than intended.
 Today we are going to try and improve the spawn rate of all the objects when the game increases speed, and we seem to have made a good result. 
 There are comments to tell you where to change numbers if you wanna balance stuff out a bit more 
 Next I will want to add a "DEV_MODE" that displays a ton of info and makes testing easier, as the final game wont play exactly the same. 
+We didnt do it lol 
+
+5/19/25 
+Today, we are going to try finalizing the games loop. So calculating the players score, giving them coins, and giving them a place to use them. 
+First will be the result and a Pause feature. 
+I also want the game to increase speed faster, instead of 30 points lets try 25 or 20...
