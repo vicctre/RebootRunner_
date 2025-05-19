@@ -65,4 +65,6 @@ I also want the game to increase speed faster, instead of 30 points lets try 25 
 
 We have a bit of a mess with the score variables in the Draw_GUI event. 
 We have moved SO MUCH around bro its insane...
+Still need to reset the FINAL SCORE after finishing the game, and thats where we are right now. 
+The global coin counter increases based on the coins collected (Which is good). I havent made an equation to calculat how many coins you get per score point (yet) 
 
