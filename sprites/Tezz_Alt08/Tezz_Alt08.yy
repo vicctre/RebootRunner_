@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Crimson",
-    "path":"folders/Sprites/Alt colors/Crimson.yy",
+    "name":"8Crimson",
+    "path":"folders/Sprites/Alt colors/8Crimson.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -5,7 +5,6 @@ ButtonPress = function()
 	room_goto(Room1)
 	with oController 
 		{
-			WorldSpeed = OG_WorldSpeed; 
-			global.HazardTimer = global.OG_HazardTimer; 
+			reset_variables_o_controller()
 		}
 }

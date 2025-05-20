@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Gold",
-    "path":"folders/Sprites/Alt colors/Gold.yy",
+    "name":"9Gold",
+    "path":"folders/Sprites/Alt colors/9Gold.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

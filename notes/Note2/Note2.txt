@@ -66,5 +66,15 @@ I also want the game to increase speed faster, instead of 30 points lets try 25 
 We have a bit of a mess with the score variables in the Draw_GUI event. 
 We have moved SO MUCH around bro its insane...
 Still need to reset the FINAL SCORE after finishing the game, and thats where we are right now. 
-The global coin counter increases based on the coins collected (Which is good). I havent made an equation to calculat how many coins you get per score point (yet) 
+The global coin counter increases based on the coins collected (Which is good). I havent made an equation to calculate how many coins you get per score point (yet) 
+We added a new funtion to reset all variables upon restarting the game and running 
+If you wanna reset more variables when entering the "PlayingGame" state, just add a line of code to the function in the oController 
+
+Also, deciding to add Music and SFX cuz it seems easy iirc (handled a bit differently tho) 
+we will organize SFX and Music later seperatly 
+Added tons of stuff in the oMusic object, made sure it was persistent lol 
+You can use the "audio_group_set_gain" to change the overall volume of every sound in a group. 
+You can also check those groups using the "Tools" option in the top left. 
+using the "switch" function allows us to add different songs based on which room we are in. 
+
 

@@ -19,6 +19,13 @@ ButtonAmount = 0 ;
 FinalScore = 0; 
 Max_Coin = 9999; 
 
+//Reset All Variatbles when restarting game 
+function reset_variables_o_controller() 
+		{ 
+	        FinalScore = 0;
+	        WorldSpeed = OG_WorldSpeed; 
+	        global.HazardTimer = global.OG_HazardTimer; 
+	    }    
 
 //Macros - used for values that never change 
 #macro GUI_Width 1280

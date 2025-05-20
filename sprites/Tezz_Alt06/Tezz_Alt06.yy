@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Copper",
-    "path":"folders/Sprites/Alt colors/Copper.yy",
+    "name":"6Copper",
+    "path":"folders/Sprites/Alt colors/6Copper.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

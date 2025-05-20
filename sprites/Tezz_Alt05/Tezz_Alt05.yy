@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Yellow",
-    "path":"folders/Sprites/Alt colors/Yellow.yy",
+    "name":"5Yellow",
+    "path":"folders/Sprites/Alt colors/5Yellow.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Blue",
-    "path":"folders/Sprites/Alt colors/Blue.yy",
+    "name":"3Blue",
+    "path":"folders/Sprites/Alt colors/3Blue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Cream",
-    "path":"folders/Sprites/Alt colors/Cream.yy",
+    "name":"7Cream",
+    "path":"folders/Sprites/Alt colors/7Cream.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

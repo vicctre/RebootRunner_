@@ -119,7 +119,8 @@ else
 if jump and onground = true
 {
 	//CurrentSprites = MeinSprites; 
-	vsp = JumpHeight; 
+	vsp = JumpHeight;
+	audio_play_sound(SFX_jump,7,false)
 }
 
 //collision and Gravity 

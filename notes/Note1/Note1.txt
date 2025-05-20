@@ -22,3 +22,10 @@ Things I want the pause menu to have are:
 	-Having a countdown from 3 upon unpausing 
 	-the ability to Resume, Options, and Quit
 I will make sure to add new sprites for the other menu assets soon! 
+
+TO-DO 5/19/25 
+--make seperate audio groups for SFX and Music 
+--add more SFXs for basic functions 
+--Change some Music to what they are supposed to be 
+--Finish shop sprites 
+--seperate all Alt sprites from their comps 

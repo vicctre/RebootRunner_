@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ice",
-    "path":"folders/Sprites/Alt colors/Ice.yy",
+    "name":"4Ice",
+    "path":"folders/Sprites/Alt colors/4Ice.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

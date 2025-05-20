@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Mint",
-    "path":"folders/Sprites/Alt colors/Mint.yy",
+    "name":"2Mint",
+    "path":"folders/Sprites/Alt colors/2Mint.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

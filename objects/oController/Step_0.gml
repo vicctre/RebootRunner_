@@ -26,6 +26,7 @@ switch (global.gamestate)
 	if instance_exists(oPlayer)
 	{
 		global.gamestate = "PlayingGame" 
+		reset_variables_o_controller()
 	}
 	
 	break; 

@@ -51,8 +51,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Lime",
-    "path":"folders/Sprites/Alt colors/Lime.yy",
+    "name":"1Lime",
+    "path":"folders/Sprites/Alt colors/1Lime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
