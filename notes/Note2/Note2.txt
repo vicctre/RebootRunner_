@@ -77,4 +77,17 @@ You can use the "audio_group_set_gain" to change the overall volume of every sou
 You can also check those groups using the "Tools" option in the top left. 
 using the "switch" function allows us to add different songs based on which room we are in. 
 
-
+5/23/25 
+Decided to do some small things, mostly finished adding all the costumes, added a new character, and tried to touch up the results/title screen. 
+I already know what I wanna do next, which is add in the visual effect of players blowing up and having the head spin, falling off screen. 
+Heres a list of everything I want to add before I publish the game: 
+--Death animation
+--Shop 
+--Acheivments 
+--Options menu
+--Pause 
+--POLISH the fuck outta it 
+hopefully in this order...after that, if there is anything else left to do, it should be relatively small. 
+Then the game will be released! It will def be challenging to finish all this with how much will be happening in the next month. 
+I did wanna add a flying enemy to hopefully add a bit more variety to the obstacles, but I dont even have a sprite yet, so we will have to discuss that later 
+I'm tired...schleep time...zzzzz

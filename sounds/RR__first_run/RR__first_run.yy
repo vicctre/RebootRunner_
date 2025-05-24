@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"RR__first_run",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":30.857124,
+  "name":"RR__first_run",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"RR__first_run.wav",
+  "type":0,
+  "volume":1.0,
+}

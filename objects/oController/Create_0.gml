@@ -35,8 +35,9 @@ function reset_variables_o_controller()
 	//these are structs 
 	//structs are lists of variables and give them values 
 	//arrays are just kinda lists lol (sprites, numbers, etc.)
+
 	
-//Costumes based on friends games 
+//Costumes for Tezz
 global.defaultSprites = 
 {
 	RunSprite: sTezz_Run,
@@ -46,6 +47,88 @@ global.defaultSprites =
 	HeadSprite: sTezz_head, 
 	IdleSprite: sTezz_Idle,
 }
+global.Alt01 = 
+{
+	RunSprite: Tezz_Alt01_run,
+	JumpSprite: Tezz_Alt01_jump,
+	SlipSprite: Tezz_Alt01_slip, 
+	DeadSprite: Tezz_Alt01_dead,
+	HeadSprite: Tezz_Alt01_head, 
+	IdleSprite: Tezz_Alt01_idle,
+}
+global.Alt02 = 
+{
+	RunSprite: Tezz_Alt02_run,
+	JumpSprite: Tezz_Alt02_jump,
+	SlipSprite: Tezz_Alt02_slip, 
+	DeadSprite: Tezz_Alt02_dead,
+	HeadSprite: Tezz_Alt02_head, 
+	IdleSprite: Tezz_Alt02_idle,
+}
+global.Alt03 = 
+{
+	RunSprite: Tezz_Alt03_run,
+	JumpSprite: Tezz_Alt03_jump,
+	SlipSprite: Tezz_Alt03_slip, 
+	DeadSprite: Tezz_Alt03_dead,
+	HeadSprite: Tezz_Alt03_head, 
+	IdleSprite: Tezz_Alt03_idle,
+}
+global.Alt04 = 
+{
+	RunSprite: Tezz_Alt04_run,
+	JumpSprite: Tezz_Alt04_jump,
+	SlipSprite: Tezz_Alt04_slip, 
+	DeadSprite: Tezz_Alt04_dead,
+	HeadSprite: Tezz_Alt04_head, 
+	IdleSprite: Tezz_Alt04_idle,
+}
+global.Alt05 = 
+{
+	RunSprite: Tezz_Alt05_run,
+	JumpSprite: Tezz_Alt05_jump,
+	SlipSprite: Tezz_Alt05_slip, 
+	DeadSprite: Tezz_Alt05_dead,
+	HeadSprite: Tezz_Alt05_head, 
+	IdleSprite: Tezz_Alt05_idle,
+}
+global.Alt06 = 
+{
+	RunSprite: Tezz_Alt06_run,
+	JumpSprite: Tezz_Alt06_jump,
+	SlipSprite: Tezz_Alt06_slip, 
+	DeadSprite: Tezz_Alt06_dead,
+	HeadSprite: Tezz_Alt06_head, 
+	IdleSprite: Tezz_Alt06_idle,
+}
+global.Alt07 = 
+{
+	RunSprite: Tezz_Alt07_run,
+	JumpSprite: Tezz_Alt07_jump,
+	SlipSprite: Tezz_Alt07_slip, 
+	DeadSprite: Tezz_Alt07_dead,
+	HeadSprite: Tezz_Alt07_head, 
+	IdleSprite: Tezz_Alt07_idle,
+}
+global.Alt08 = 
+{
+	RunSprite: Tezz_Alt08_run,
+	JumpSprite: Tezz_Alt08_jump,
+	SlipSprite: Tezz_Alt08_slip, 
+	DeadSprite: Tezz_Alt08_dead,
+	HeadSprite: Tezz_Alt08_head, 
+	IdleSprite: Tezz_Alt08_idle,
+}
+global.Alt09 = 
+{
+	RunSprite: Tezz_Alt09_run,
+	JumpSprite: Tezz_Alt09_jump,
+	SlipSprite: Tezz_Alt09_slip, 
+	DeadSprite: Tezz_Alt09_dead,
+	HeadSprite: Tezz_Alt09_head, 
+	IdleSprite: Tezz_Alt09_idle,
+}
+//Character Costumes
 global.GS_Sprites = 
 {
 	RunSprite: Costume01_run,
@@ -114,6 +197,15 @@ global.VT_Sprites =
 global.SpriteList = 
 [
 	global.defaultSprites,
+	global.Alt01,
+	global.Alt02,
+	global.Alt03,
+	global.Alt04,
+	global.Alt05,
+	global.Alt06,
+	global.Alt07,
+	global.Alt08,
+	global.Alt09,
 	global.GS_Sprites, 
 	global.Mein_Sprites, 
 	global.FB_Sprites, 

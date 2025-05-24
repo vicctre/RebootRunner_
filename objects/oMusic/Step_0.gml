@@ -26,14 +26,14 @@ switch (room)
 	case RoomResults: 
 	if play = true 
 	{
-        audio_play_sound(RR_Results, 6, true)
+        audio_play_sound(RR__results, 6, true)
 		play = false 
 	}
 		break; 
 	case Room1: 
 	if play = true 
 	{
-        audio_play_sound(RR_Options_menu, 6, true)
+        audio_play_sound(RR__first_run, 6, true)
 		play = false 
 	}
 		break; 
