@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"v1",
+    "$GMSequence":"",
     "%Name":"Costume04_jump",
     "autoRecord":true,
     "backdropHeight":768,
@@ -69,8 +69,12 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e8c88a4-4084-46b7-ba37-314ea429f773","path":"sprites/Costume04_jump/Costume04_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e7149b92-06bf-4e99-b9c8-f338fcb966a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea199d43-0da1-46e0-9087-3470486e3b90","path":"sprites/Costume04_jump/Costume04_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9d632f78-4739-4299-b186-9e28c421e56d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e8c88a4-4084-46b7-ba37-314ea429f773","path":"sprites/Costume04_jump/Costume04_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7149b92-06bf-4e99-b9c8-f338fcb966a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea199d43-0da1-46e0-9087-3470486e3b90","path":"sprites/Costume04_jump/Costume04_jump.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9d632f78-4739-4299-b186-9e28c421e56d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -24,14 +24,6 @@ Max_Coin = 9999;
 #macro GUI_Width 1280
 #macro GUI_Height 720
 
-//functions
-	function reset_variables_o_controller() { 
-		FinalScore = 0;
-		WorldSpeed = OG_WorldSpeed; 
-		global.HazardTimer = global.OG_HazardTimer; 
-	}
-
-
 //customization for player costumes 
 	//these are structs 
 	//structs are lists of variables and give them values 

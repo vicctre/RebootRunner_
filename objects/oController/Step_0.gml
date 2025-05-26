@@ -4,9 +4,6 @@ if keyboard_check_pressed(ord("R"))
 	game_restart()
 }
 
-show_debug_message($"{FinalScore} {score}")
- 
- 
 //Game States
 switch (global.gamestate) 
 {
@@ -26,11 +23,9 @@ switch (global.gamestate)
 			global.ButtonSelected -= 1; 
 		}
 	}
-	
 	if instance_exists(oPlayer)
 	{
 		global.gamestate = "PlayingGame" 
-		reset_variables_o_controller();
 	}
 	
 	break; 
