@@ -23,7 +23,7 @@
   ],
   "name":"Tezz_Alt01_head",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"1Lime",
     "path":"folders/Sprites/Alt colors/1Lime.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":18,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

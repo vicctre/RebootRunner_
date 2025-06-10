@@ -23,7 +23,7 @@
   ],
   "name":"Costume01_head",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Push_n_pull_Barrage",
     "path":"folders/Sprites/Costumes/Push_n_pull_Barrage.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":18,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

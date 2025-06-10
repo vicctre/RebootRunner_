@@ -2,11 +2,11 @@
 global.gamestate = "Menu"
 global.ButtonSelected = 0; //For navigating menus with Keyboard 
 global.Hi_Score = 0
-global.CoinCount = 0 
+global.CoinCount = 0
 global.OG_HazardTimer = 60 //spawn rate from inital start 
 global.HazardTimer = global.OG_HazardTimer 
 global.CoinChance = 40 
-global.TotalCoinCount = 0; //Counts all the coins the player gets and spends 
+global.TotalCoinCount = 100; //0 //Counts all the coins the player gets and spends 
 Max_HazardLimit = 100 //longest time to spawn hazards 
 Min_HazardTimer = 40 //shortest time to spawn hazards 
 RunTime = 0 
@@ -30,6 +30,8 @@ function reset_variables_o_controller()
 //Macros - used for values that never change 
 #macro GUI_Width 1280
 #macro GUI_Height 720
+#macro Alt_Cost 20 
+#macro Costume_Cost 50
 
 //customization for player costumes 
 	//these are structs 

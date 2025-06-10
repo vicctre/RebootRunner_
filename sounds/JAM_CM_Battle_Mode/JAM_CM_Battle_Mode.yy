@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"JAM_CM_Battle_Mode",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":40.0,
+  "name":"JAM_CM_Battle_Mode",
+  "parent":{
+    "name":"From_Others",
+    "path":"folders/Sounds/Music/From_Others.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"JAM_CM_Battle_Mode.wav",
+  "type":0,
+  "volume":1.0,
+}

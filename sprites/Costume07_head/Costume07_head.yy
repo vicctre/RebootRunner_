@@ -23,7 +23,7 @@
   ],
   "name":"Costume07_head",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Wannabe_Game_Dev",
     "path":"folders/Sprites/Costumes/Wannabe_Game_Dev.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":18,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

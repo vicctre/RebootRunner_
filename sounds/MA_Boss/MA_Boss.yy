@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"MA_Boss",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":43.764694,
+  "name":"MA_Boss",
+  "parent":{
+    "name":"From_Others",
+    "path":"folders/Sounds/Music/From_Others.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MA_Boss.wav",
+  "type":0,
+  "volume":1.0,
+}

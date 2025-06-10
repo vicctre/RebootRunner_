@@ -40,6 +40,7 @@ switch (state) {
 			{
 				HasControl = false
 				state = "Ded lol" 
+				image_index = 0; 
 			}
 		else 
 			{
@@ -61,6 +62,7 @@ switch (state) {
 			{
 				HasControl = false
 				state = "Ded lol" 
+				image_index = 0; 
 			}
 		else
 			{
@@ -87,15 +89,43 @@ switch (state) {
 				{
 					HasControl = false
 					state = "Ded lol" 
+					image_index = 0; 
 				}
 		}
 	break; 
 	case "Ded lol": 
-		sprite_index = global.SpriteList[global.CurrentSprite].DeadSprite;
 		DeathDelay += 1 
-		vsp = 0
-		grav = 0
-		if DeathDelay = 60 
+		audio_stop_sound(global.RunningMusic[global.CurrentMusic])
+		if DeathDelay < 36
+		{
+			sprite_index = global.SpriteList[global.CurrentSprite].DeadSprite;
+			vsp = 0
+			grav = 0
+			if playSFX = true 
+			{
+				audio_play_sound(SFX_dead_lol,7,false)
+				playSFX = false 
+			}		
+		}
+		else 
+		{
+			sprite_index = global.SpriteList[global.CurrentSprite].HeadSprite;
+			image_angle += 20 //this rotates it every frame 
+			if playSFX = false
+			{
+				audio_play_sound(SFX_death_Explosion,7,false)
+				playSFX = true  
+			}
+			if head_jump = true 
+			{
+				vspeed = -10
+				gravity = 0.4  
+				head_jump = false
+				//we are using the built in ones cuz they work independently from all our other code
+				//if we used "vsp" and "grav" we would still have our collision code (head would just spin on the ground lol) 
+			}
+		}
+		if DeathDelay = 180
 		{
 			SaveGame()
 			room_goto(RoomResults); 

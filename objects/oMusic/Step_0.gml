@@ -24,17 +24,31 @@ switch (room)
 	}
 		break; 
 	case RoomResults: 
-	if play = true 
+	if play = true //after death
 	{
-        audio_play_sound(RR__results, 6, true)
+        audio_play_sound(RR_results, 6, true)
 		play = false 
 	}
 		break; 
-	case Room1: 
+	case Room1: //main stage
 	if play = true 
 	{
-        audio_play_sound(RR__first_run, 6, true)
+        audio_play_sound(global.RunningMusic[global.CurrentMusic], 6, true)
 		play = false 
 	}
 		break; 
 }
+
+//show_debug_message(global.CurrentMusic)
+if keyboard_check_pressed(vk_right) and global.CurrentMusic < global.MusicListLenght 
+	{
+		global.CurrentMusic += 1; 
+		play = true; 
+		audio_stop_all()
+	}
+if keyboard_check_pressed(vk_left) and global.CurrentMusic > 0
+	{
+		global.CurrentMusic -= 1;
+		play = true; 
+		audio_stop_all()
+	}
