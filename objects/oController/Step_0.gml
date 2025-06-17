@@ -42,7 +42,7 @@ switch (global.gamestate)
 		}
 		
 	//Hazard Spawn (where you spawn hazards)
-	show_debug_message(global.gamestate)
+	//show_debug_message(global.gamestate)
 	if oPlayer.state = "Ded lol" //Stops hazards from moving when you die
 			{
 				SpeedIncrease = 0

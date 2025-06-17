@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.428562,
+  "duration":36.428547,
   "name":"RR_Acheivments_Credits",
   "parent":{
     "name":"Music",

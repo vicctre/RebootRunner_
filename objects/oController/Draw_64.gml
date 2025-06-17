@@ -1,5 +1,5 @@
 //draw_text(x+46, y, instance_number(oBanana))
-show_debug_message(global.gamestate)
+//show_debug_message(global.gamestate)
 
 if global.gamestate != "Menu" 
 	{
@@ -28,13 +28,13 @@ else
 				score = 0; 
 				//check for maximum coin count 
 				//Increases your global Coin Count after a run  
-				if global.TotalCoinCount < Max_Coin
+				if global.Wallet < Max_Coin
 				{
-					global.TotalCoinCount += global.CoinCount; 
+					global.Wallet += global.CoinCount; 
 				}
-				if global.TotalCoinCount >= Max_Coin 
+				if global.Wallet >= Max_Coin 
 				{
-					global.TotalCoinCount = Max_Coin; 
+					global.Wallet = Max_Coin; 
 				}
 				global.CoinCount = 0; 
 			}
@@ -46,6 +46,6 @@ else
 			FinalScore = 0;
 		}
 		draw_set_halign(fa_right)//the "h_align" sets text on the horizontal axis, to change the origin of THIS text; default is top left 
-		draw_text_transformed(GUI_Width-22,22, $"MONEY:{global.TotalCoinCount}", 3, 3, 0)
+		draw_text_transformed(GUI_Width-22,22, $"MONEY:{global.Wallet}", 3, 3, 0)
 		draw_set_halign(fa_left)//you have to reset this in order to prevent all other text from moving to the right
 	}

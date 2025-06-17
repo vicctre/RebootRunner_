@@ -1,4 +1,4 @@
-text = "Change Costume" 
+text = "Customize" 
 ButtonPress = function()
 {
 	room_goto(RoomCustomize)

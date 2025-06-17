@@ -37,6 +37,13 @@ switch (room)
 		play = false 
 	}
 		break; 
+		case RoomCustomize: 
+	if play = true 
+	{
+        audio_play_sound(RR_Customize_Shop, 6, true)
+		play = false 
+	}
+		break; 
 }
 
 //show_debug_message(global.CurrentMusic)
