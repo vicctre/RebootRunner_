@@ -219,12 +219,13 @@ global.SpriteList =
 	global.Alt09,
 	global.GS_Sprites, 
 	global.Mein_Sprites, 
+	global.MA_Sprites,
 	global.FB_Sprites, 
-	global.MA_Sprites, 
 	global.Kobold_Sprites, 
 	global.Luna_Sprites, 
-	global.VT_Sprites, 
 	global.Hemi_Sprites, 
+	global.VT_Sprites, 
+
 ]
 global.CurrentSprite = 0;  
 

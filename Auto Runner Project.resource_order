@@ -80,7 +80,6 @@
     {"name":"SFX_death_Explosion","order":2,"path":"sounds/SFX_death_Explosion/SFX_death_Explosion.yy",},
     {"name":"Coin_Collected","order":5,"path":"sprites/Coin_Collected/Coin_Collected.yy",},
     {"name":"Costume_06_Comp","order":6,"path":"sprites/Costume_06_Comp/Costume_06_Comp.yy",},
-    {"name":"Costume_Buttons_v2","order":7,"path":"sprites/Costume_Buttons_v2/Costume_Buttons_v2.yy",},
     {"name":"Costume01_Comp","order":1,"path":"sprites/Costume01_Comp/Costume01_Comp.yy",},
     {"name":"Costume01_dead","order":8,"path":"sprites/Costume01_dead/Costume01_dead.yy",},
     {"name":"Costume01_head","order":5,"path":"sprites/Costume01_head/Costume01_head.yy",},
