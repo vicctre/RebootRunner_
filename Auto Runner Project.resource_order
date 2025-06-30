@@ -34,11 +34,11 @@
     {"name":"Motivational_Pale_Ghost","order":2,"path":"folders/Sprites/Costumes/Motivational_Pale_Ghost.yy",},
     {"name":"Optomistic_Young_Noodle","order":1,"path":"folders/Sprites/Costumes/Optomistic_Young_Noodle.yy",},
     {"name":"Wannabe_Game_Dev","order":6,"path":"folders/Sprites/Costumes/Wannabe_Game_Dev.yy",},
-    {"name":"UI stuff","order":7,"path":"folders/Sprites/UI stuff.yy",},
     {"name":"New Tezz sprites","order":2,"path":"folders/Sprites/New Tezz sprites.yy",},
     {"name":"Objetcs","order":4,"path":"folders/Sprites/Objetcs.yy",},
     {"name":"Hazards","order":4,"path":"folders/Sprites/Objetcs/Hazards.yy",},
     {"name":"Other","order":3,"path":"folders/Sprites/Other.yy",},
+    {"name":"UI stuff","order":7,"path":"folders/Sprites/UI stuff.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
