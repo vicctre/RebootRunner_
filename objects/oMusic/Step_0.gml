@@ -47,15 +47,19 @@ switch (room)
 }
 
 //show_debug_message(global.CurrentMusic)
-if keyboard_check_pressed(vk_right) and global.CurrentMusic < global.MusicListLenght 
+if room = Room1 
 	{
-		global.CurrentMusic += 1; 
-		play = true; 
-		audio_stop_all()
+		if keyboard_check_pressed(vk_right) and global.CurrentMusic < global.MusicListLenght 
+			{
+				global.CurrentMusic += 1; 
+				play = true; 
+				audio_stop_all()
+			}
+		if keyboard_check_pressed(vk_left) and global.CurrentMusic > 0
+			{
+				global.CurrentMusic -= 1;
+				play = true; 
+				audio_stop_all()
+			}
 	}
-if keyboard_check_pressed(vk_left) and global.CurrentMusic > 0
-	{
-		global.CurrentMusic -= 1;
-		play = true; 
-		audio_stop_all()
-	}
+

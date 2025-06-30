@@ -8,5 +8,6 @@ global.Inventory =
 //making a grid system for buttons 
 global.Row = 0; 
 global.Column = 0; 
-Height = 5; 
-Width = 2;
+Row_Amount = 5; //how many rows we have 
+Column_Amount = 2; //how many columns we have 
+
