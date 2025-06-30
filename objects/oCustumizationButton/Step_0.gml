@@ -4,6 +4,13 @@ image_index = ButtonID
 if hover = true 
 {
 	global.ButtonSelected = ButtonID; 
+	image_xscale = 1.5 
+	image_yscale = 1.5
+}
+else 
+{
+	image_xscale = 1
+	image_yscale = 1
 }
 if ButtonID = global.ButtonSelected 
 	{
